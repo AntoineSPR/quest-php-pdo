@@ -40,6 +40,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </head>
     <body>
         <h1>Here are my friends</h1>
+        <!-- 
+            Cthulhu The Sleeper of R'lyeh
+            Nyarlathotep The Messenger
+            Dagon Lord of the Abyss
+            Azathoth The Dreamer
+        -->
         <?php foreach($myFriends as $myFriend) : ?>
             <ul>
                 <li> <?= $myFriend['firstname'] . ' ' . $myFriend['lastname'] ?> </li>
